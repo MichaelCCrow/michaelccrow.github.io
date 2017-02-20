@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<script type="text/javascript" src="js/somejs.js""></script>
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
@@ -17,6 +18,8 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
+  <div id="myid"></div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
