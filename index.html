@@ -19,6 +19,9 @@ layout: default
     {% endfor %}
   </ul>
 
+  <script language="javascript">
+    document.getElementById("myid").innerHTML = "<br/><p id="myid"></p>"
+  </script>
   <div id="myid"></div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
